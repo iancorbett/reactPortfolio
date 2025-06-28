@@ -3,8 +3,10 @@
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--border));
+  --color-foreground: hsl(var(--foreground));
 
-  --color-border: hsl(var(--border));
-  --color-border: hsl(var(--border));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-card: hsl(var(--card));
 }
