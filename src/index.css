@@ -32,10 +32,10 @@
 @keyframes pulse-subtle {
   0%,
   100% {
-    opacity: 1
+    opacity: 1;
   }
   50% {
-    opacity: 0.8
+    opacity: 0.8;
   }
 }
 
@@ -63,5 +63,13 @@
     opacity: 0;
   }
 }
+}
 
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+  }
+  .dark {
+    --background: 222 47% 4%;
+  }
 }
