@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const starBackground = () => {
+export const StarBackground = () => {
     const [stars, setStars] = useState([]);
     useEffect(() => {
         generateStars()
