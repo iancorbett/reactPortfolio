@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export const StarBackground = () => {
     const [stars, setStars] = useState([]);
+    const [meteors, setMeteors] = useState([]);
     useEffect(() => {
         generateStars()
     }, [])
@@ -25,9 +26,8 @@ export const StarBackground = () => {
     };
 
     const generateMeteors = () => {
-        const numberOfStars = Math.floor((window.innerWidth * window.innerHeight) / 10000
-    );
-    const newStars = []
+        const numberOfMeteors = 4
+    const newStars = [];
 
     for (let i = 0; i < numberOfStars; i++) {
         newStars.push({
