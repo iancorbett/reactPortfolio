@@ -27,7 +27,7 @@ export const StarBackground = () => {
 
     const generateMeteors = () => {
         const numberOfMeteors = 4
-    const newStars = [];
+    const newMeteors = [];
 
     for (let i = 0; i < numberOfStars; i++) {
         newStars.push({
