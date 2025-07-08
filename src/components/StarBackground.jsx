@@ -32,14 +32,14 @@ export const StarBackground = () => {
     for (let i = 0; i < numberOfMeteors; i++) {
         newMeteors.push({
             id: i,
-            size: Math.random() * 3 + 1,
+            size: Math.random() * 2 + 1,
             x: Math.random() * 100,
-            y: Math.random() * 100,
-            opacity: Math.random() * 0.5 + 0.5,
-            animationDuration: Math.random() * 4 + 2
+            y: Math.random() * 20,
+            delay: Math.random() * 15,
+            animationDuration: Math.random() * 3 + 3
         })
     }
-    setStars(newStars)
+    setMeteors(newMeteors)
     };
 
     return <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
