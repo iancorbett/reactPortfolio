@@ -24,7 +24,7 @@ export const StarBackground = () => {
     setStars(newStars)
     };
 
-    const generateStars = () => {
+    const generateMeteors = () => {
         const numberOfStars = Math.floor((window.innerWidth * window.innerHeight) / 10000
     );
     const newStars = []
