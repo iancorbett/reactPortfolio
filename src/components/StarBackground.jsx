@@ -13,7 +13,11 @@ export const StarBackground = () => {
 
         const handleResize = () => {
             generateStars();
-        }
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
         }, [])
 
     const generateStars = () => {
