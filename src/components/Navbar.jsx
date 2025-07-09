@@ -1,5 +1,4 @@
-
-
+import { cn } from "../lib/utils";
 
 const navItems = [
     {name: "Home", href: "#hero"},
@@ -10,5 +9,5 @@ const navItems = [
 ]
 
 export const Navbar = () => {
-    return <nav></nav>;
+    return <nav className={cn("fixed w-full z-40 transition-all duration-300")}></nav>;
 }
