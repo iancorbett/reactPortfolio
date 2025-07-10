@@ -1,21 +1,21 @@
 const skills = [
     
     { name: "HTML/CSS", level: 90, category: "frontend" },
-    { name: "JavaScript", level: 90, category: "frontend" },
-    { name: "React", level: 90, category: "frontend" },
-    { name: "TypeScript", level: 90, category: "frontend" },
-    { name: "Tailwind CSS", level: 90, category: "frontend" },
-    { name: "Next.js", level: 90, category: "frontend" },
+    { name: "JavaScript", level: 85, category: "frontend" },
+    { name: "React", level: 70, category: "frontend" },
+    { name: "TypeScript", level: 65, category: "frontend" },
+    { name: "Tailwind CSS", level: 80, category: "frontend" },
+    { name: "Next.js", level: 60, category: "frontend" },
 
-    { name: "Node.js", level: 90, category: "backend" },
-    { name: "Express", level: 90, category: "backend" },
-    { name: "MongoDB", level: 90, category: "backend" },
-    { name: "PostgreSQL", level: 90, category: "backend" },
-    { name: "GraphQL", level: 90, category: "backend" },
+    { name: "Node.js", level: 80, category: "backend" },
+    { name: "Express", level: 70, category: "backend" },
+    { name: "MongoDB", level: 60, category: "backend" },
+    { name: "PostgreSQL", level: 70, category: "backend" },
+    { name: "GraphQL", level: 70, category: "backend" },
 
     { name: "Git/GitHub", level: 90, category: "tools" },
-    { name: "Docker", level: 90, category: "tools" },
-    { name: "Figma", level: 90, category: "tools" },
+    { name: "Docker", level: 50, category: "tools" },
+    { name: "Figma", level: 50, category: "tools" },
     { name: "VS Code", level: 90, category: "tools" },
 
 ];
@@ -39,8 +39,10 @@ export const SkillsSection = () => {
                             </h3>
                         </div>
 
-                        <div>
-                            
+                        <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
+                            <div className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
+                            style={{width: skill.level + "%"}}
+                            />
                         </div>
 
                     </div>
