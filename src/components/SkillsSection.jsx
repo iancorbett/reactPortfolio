@@ -22,7 +22,7 @@ const skills = [
 
 ];
 
-const categories = ["all", "frontend", "backend", "tools"]
+const categories = ["all", "frontend", "backend", "tools"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -36,7 +36,15 @@ export const SkillsSection = () => {
             </h2>
 
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-
+                {categories.map((category, key) => (
+                    <button 
+                    key={key} 
+                    onClick={() => setActiveCategory(category)}
+                    className="px-5 py-2 rounded-full transition-colors duration-300 capitalize"
+                    >
+                    {category}
+                    </button>
+                ))}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
