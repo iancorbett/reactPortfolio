@@ -9,12 +9,22 @@ export const AboutSection = () => {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div>
+                <div className="space-y-6">
+                    <h3>
+                        Passionate web developer etc
+                    </h3>
 
+                    <p>
+                        Experience andspecialization
+                    </p>
+
+                    <p>
+                        Passionate about
+                    </p>
                 </div>
 
                 <div>
-                    
+
                 </div>
 
             </div>
