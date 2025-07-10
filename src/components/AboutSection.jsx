@@ -13,14 +13,22 @@ export const AboutSection = () => {
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">
                         Passionate web developer etc
+                        sdfsdf
+                        asdfsadsdfgdfgdfgdfgdfdfgdfgdfgdfg
+                        dfsadsdfgdfgdfgdfgdfdfgdfgdfgdfgdf
                     </h3>
 
                     <p className="text-muted-foreground">
                         Experience andspecialization
+                        sdfsdfsadf
+                        dfsadsdfgdfgdfgdfgdfdfgdfgdfgdfgdfsadsdf
                     </p>
 
                     <p className="text-muted-foreground">
                         Passionate about
+                        asdfsadf
+                        sdfsdfdfsadsdfgdfgdfgdfgdfdfgdfgd
+                        dfsadsdfgdfgdfgdfgdfdfgdfgdfgdfgdfsadsd
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -41,6 +49,10 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg">Web Development</h4>
+                                <p className="text-muted-foreground">Creates sites</p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
@@ -48,12 +60,20 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                <p className="text-muted-foreground">Designing Interfaces</p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Briefcase className="h-6 w-6 text-primary"/>
+                            </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg">Freelance Work</h4>
+                                <p className="text-muted-foreground">Worked with Clients</p>
                             </div>
                         </div>
                     </div>
