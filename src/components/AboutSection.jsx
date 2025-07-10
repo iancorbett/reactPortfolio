@@ -10,6 +10,10 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
+
+                </div>
+
+                <div>
                     
                 </div>
 
