@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const skills = [
     
     { name: "HTML/CSS", level: 90, category: "frontend" },
@@ -20,7 +22,10 @@ const skills = [
 
 ];
 
+const categories = ["all", "frontend", "backend", "tools"]
+
 export const SkillsSection = () => {
+    const [activeCategory, setActiveCategory] = useState("all");
     return (
     
     <section id="skills" className="py-24 px-4 relative bg-secondary/30"
@@ -29,6 +34,10 @@ export const SkillsSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                 My <span className="text-primary">Skills</span>
             </h2>
+
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
+
+            </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {skills.map((skill, key) => (
