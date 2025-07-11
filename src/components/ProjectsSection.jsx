@@ -60,7 +60,7 @@ export const ProjectsSection = () => {
                             ))}
                         </div>
 
-                    </div>
+                    
                         <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
                         <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                         <div className="flex justify-between items-center">
@@ -68,16 +68,16 @@ export const ProjectsSection = () => {
                                 <a href={project.demoUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                    <ExternalLink />
+                                    <ExternalLink size={20}/>
                                 </a>
                                 <a href={project.githubUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                 >
-                                    <Github />
+                                    <Github size={20}/>
                                 </a>
                             </div>
-
+                            </div>
                         </div>
                 </div>
             ))}
