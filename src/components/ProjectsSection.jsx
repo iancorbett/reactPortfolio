@@ -12,7 +12,7 @@ const projects = [
     },
     {
         id: 1,
-        title: "project 1",
+        title: "project 2",
         description: "hey",
         // image: tbd,
         tags: ["React", "tailwind"],
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         id: 1,
-        title: "project 1",
+        title: "project 3",
         description: "hey",
         // image: tbd,
         tags: ["React", "tailwind"],
@@ -43,7 +43,15 @@ export const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, key) => (
                 <div key={key} 
-                className="group bg-card  overflow-hidden rounded-lg shadow-xs card-hover">
+                className="group bg-card  overflow-hidden rounded-lg shadow-xs card-hover"
+                >
+                    <div>
+                        <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"/>
+                    </div>
+
+                    <div>
+                        
+                    </div>
 
                 </div>
             ))}
