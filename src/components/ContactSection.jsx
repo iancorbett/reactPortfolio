@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 
 export const ContactSection = () => {
@@ -55,6 +55,14 @@ export const ContactSection = () => {
                                 Los Gatos, California, USA
                             </a>
                         </div>
+                    </div>
+                </div>
+                <div className="pt-8">
+                    <h4 className="font-medium mb-4">Connect With Me</h4>
+                    <div className="flex space-x-4 justify-center">
+                        <a href="#">
+                            <Linkedin />
+                        </a>
                     </div>
                 </div>
             </div>
