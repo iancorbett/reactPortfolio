@@ -49,8 +49,16 @@ export const ProjectsSection = () => {
                         <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                     </div>
 
-                    <div>
-                        
+                    <div className="p-6">
+
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {project.tags.map((tag) => (
+                                <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground">
+                                    {tag}
+                                    </span>
+                            ))}
+                        </div>
+
                     </div>
 
                 </div>
