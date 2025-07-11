@@ -1,3 +1,4 @@
+import { ExternalLink, Github } from "lucide-react";
 
 
 const projects = [
@@ -55,12 +56,29 @@ export const ProjectsSection = () => {
                             {project.tags.map((tag) => (
                                 <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground">
                                     {tag}
-                                    </span>
+                                </span>
                             ))}
                         </div>
 
                     </div>
+                        <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                        <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
+                        <div className="flex justify-between items-center">
+                            <div className="flex space-x-3">
+                                <a href={project.demoUrl} 
+                                target="_blank"
+                                className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                    <ExternalLink />
+                                </a>
+                                <a href={project.githubUrl} 
+                                target="_blank"
+                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                >
+                                    <Github />
+                                </a>
+                            </div>
 
+                        </div>
                 </div>
             ))}
         </div>
