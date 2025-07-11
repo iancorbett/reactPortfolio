@@ -27,6 +27,12 @@ export const ContactSection = () => {
                         <div className="p-3 rounded-full bg-primary/10">
                             <Mail className="h-6 w-6 text-primary"/>
                         </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:ianmclarencorbett@gmail.com">
+
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
