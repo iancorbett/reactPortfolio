@@ -75,7 +75,44 @@ export const ContactSection = () => {
 
                 <form action="" className="space-y-6">
                     <div>
-                        <label htmlFor="name">Your Name</label>
+                        <label 
+                        htmlFor="name"
+                        className="block text-sm font-medium mb-2"
+                        >
+                            Your Name
+                        </label>
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required
+                        className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                        placeholder=""
+                         />
+                    </div>
+                    <div>
+                        <label 
+                        htmlFor="email"
+                        className="block text-sm font-medium mb-2"
+                        >
+                            Your Email
+                        </label>
+                        <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                        placeholder=""
+                         />
+                    </div>
+                    <div>
+                        <label 
+                        htmlFor="name"
+                        className="block text-sm font-medium mb-2"
+                        >
+                            Your Name
+                        </label>
                         <input 
                         type="text" 
                         id="name" 
