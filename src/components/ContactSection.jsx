@@ -1,15 +1,8 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 
+
 export const ContactSection = () => {
-
-    const handleSubmmit = (e) => {
-        e.preventDefault()
-
-        setTimeout(() => {
-
-        }, 1500)
-    }
 
     return (
     <section 
