@@ -1,7 +1,16 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 
 export const ContactSection = () => {
+
+    const handleSubmmit = (e) => {
+        e.preventDefault()
+
+        setTimeout(() => {
+
+        }, 1500)
+    }
+
     return (
     <section 
     id="contact"
@@ -128,7 +137,8 @@ export const ContactSection = () => {
                         "cosmic-button w-full flex items-center justify-center gap-2"
                         )}
                         >
-
+                            Send Message
+                        <Send size={16}/>
                     </button>
                 </form>
             </div>
