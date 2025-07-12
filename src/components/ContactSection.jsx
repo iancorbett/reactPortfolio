@@ -1,5 +1,5 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
-
+import { cn } from "../lib/utils";
 
 export const ContactSection = () => {
     return (
@@ -122,7 +122,14 @@ export const ContactSection = () => {
                          />
                     </div>
 
-                    <button></button>
+                    <button 
+                    type="submit" 
+                    className={cn(
+                        "cosmic-button w-full flex items-center justify-center gap-2"
+                        )}
+                        >
+
+                    </button>
                 </form>
             </div>
         </div>
