@@ -9,6 +9,7 @@ const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 
 export const ContactSection = () => {
+    const [formData, setFormData] = useState({ name: "", email: "", message: "" });
     const form = useRef();
 
     const handleChange = (e) => {
