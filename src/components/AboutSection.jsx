@@ -15,12 +15,12 @@ export const AboutSection = () => {
                     Passionate about building impactful web applications, crafting intuitive user interfaces, and delivering an exceptional user experience on every project I touch.
                     </h3>
 
-                    <p className="text-muted-foreground">
+                    <p className=" text-2xl pt-4 font-semibold text-muted-foreground">
                     Developed a variety of full-stack projects leveraging React, Node.js, PostgreSQL, and additional tools across the JavaScript ecosystem.
                     </p>
 
-                    <p className="text-muted-foreground">
-                    Experienced in building both solo projects and collaborative applications, including freelance work for multiple clients.
+                    <p className="text-2xl pt-6 font-semibold text-muted-foreground">
+                    Experienced in building both solo projects as well as collaborative applications, including freelance work for multiple clients.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +35,7 @@ export const AboutSection = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6">
+                <div className="grid grid-cols-1 gap-6 mb-12">
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
