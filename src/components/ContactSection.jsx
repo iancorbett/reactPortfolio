@@ -21,8 +21,13 @@ export const ContactSection = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs
-      .sendForm("service_jwqz8d7", "template_yh3i14a", form.current, "ZWNUTZBCywEwpHXTq")
+        emailjs.sendForm(
+            serviceID,
+            templateID,
+            form.current,
+            publicKey
+          )
+          
       .then(
         (result) => {
           console.log("SUCCESS!", result.text);
