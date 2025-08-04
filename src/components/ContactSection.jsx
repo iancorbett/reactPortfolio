@@ -65,7 +65,7 @@ export const ContactSection = () => {
                         <a href="#" target="_blank">
                             <Linkedin />
                         </a>
-                        <a href="#" target="_blank">
+                        <a href="https://www.instagram.com/ian_mclaren_/" target="_blank">
                         < Instagram />
                         </a>
                     </div>
