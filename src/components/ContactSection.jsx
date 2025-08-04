@@ -3,6 +3,10 @@ import { cn } from "../lib/utils";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 
 export const ContactSection = () => {
     const form = useRef();
