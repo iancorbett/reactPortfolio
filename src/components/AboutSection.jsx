@@ -43,7 +43,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Web Development</h4>
-                                <p className="text-muted-foreground">Creates sites</p>
+                                <p className="text-muted-foreground">Experience building everything from front-end interfaces to full-stack applications with AI integration. </p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                <p className="text-muted-foreground">Designing Interfaces</p>
+                                <p className="text-muted-foreground">I design responsive, user-friendly interfaces that prioritize clarity, usability, and a smooth experience across all devices.</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Freelance Work</h4>
-                                <p className="text-muted-foreground">Worked with Clients</p>
+                                <p className="text-muted-foreground">I’ve delivered custom websites and applications for freelance clients, handling everything from design to deployment.</p>
                             </div>
                         </div>
                     </div>
