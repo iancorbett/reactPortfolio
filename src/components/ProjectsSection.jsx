@@ -31,9 +31,9 @@ const projects = [
     },
     {
         
-        title: "project 3",
-        description: "hey",
-        // image: tbd,
+        title: "Book Search Engine",
+        description: "In this project, I built a book search engine where users can sign up, log in, and search for books by title. Using a provided starter codebase, I enhanced the functionality to integrate with an external book API, allowing users to view search results and save their favorite books to a personalized list they can access anytime.",
+        image: "Project3.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
         githubUrl: "#",
@@ -47,8 +47,8 @@ export const ProjectsSection = () => {
     <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Featured <span className="text-primary">Projects</span></h2>
 
-        <p className="text-center text-muted-foregroud mb-12 max-w-2xl mx-auto">
-        These are just a few of the projects I've developed. Check out my GitHub for even more!
+        <p className="text-center text-muted-foregroud mb-12 max-w-2xl mx-auto text-2xl">
+        This is my most recent project that I am currently working on!
         </p>
 
         <div className="mb-16">
@@ -94,6 +94,10 @@ export const ProjectsSection = () => {
             </div>
           </div>
         </div>
+
+        <p className="text-center text-muted-foregroud mb-12 max-w-2xl mx-auto text-2xl">
+        These are a few other projects that I have built, and there are many more on my GitHub as well!
+        </p>
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
