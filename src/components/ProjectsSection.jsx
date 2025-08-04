@@ -136,7 +136,7 @@ export const ProjectsSection = () => {
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                 >
-                                    <Github size={20}/>
+                                    <Github size={20}/>Visit Repo
                                 </a>
                             </div>
                             </div>
