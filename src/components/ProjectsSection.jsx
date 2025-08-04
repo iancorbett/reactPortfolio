@@ -22,9 +22,9 @@ const projects = [
     },
     {
         
-        title: "project 2",
+        title: "E-Commerce Site",
         description: "hey",
-        // image: tbd,
+        image: "Project2.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
         githubUrl: "#",
