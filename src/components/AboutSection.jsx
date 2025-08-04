@@ -35,7 +35,7 @@ export const AboutSection = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6 mb-12">
+                <div className="grid grid-cols-1 gap-6 mb-24">
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
