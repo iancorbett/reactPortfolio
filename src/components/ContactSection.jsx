@@ -1,5 +1,7 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 
 export const ContactSection = () => {
