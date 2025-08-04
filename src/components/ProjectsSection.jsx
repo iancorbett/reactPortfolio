@@ -12,7 +12,7 @@ const featuredProject = {
 
 const projects = [
     {
-        id: 1,
+        
         title: "project 1",
         description: "hey",
         // image: tbd,
@@ -21,7 +21,7 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 1,
+        
         title: "project 2",
         description: "hey",
         // image: tbd,
@@ -30,7 +30,7 @@ const projects = [
         githubUrl: "#",
     },
     {
-        id: 1,
+        
         title: "project 3",
         description: "hey",
         // image: tbd,
