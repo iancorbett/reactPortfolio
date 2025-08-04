@@ -12,17 +12,15 @@ export const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">
-                        Passionate about creating useful web applications, designing user interfaces, and delivering the best 
-                        user experience on every project I'm a part of.
+                    Passionate about building impactful web applications, crafting intuitive user interfaces, and delivering an exceptional user experience on every project I touch.
                     </h3>
 
                     <p className="text-muted-foreground">
-                        Created various full stack projects using react, node, postgreSQL, and more.
+                    Developed a variety of full-stack projects leveraging React, Node.js, PostgreSQL, and additional tools across the JavaScript ecosystem.
                     </p>
 
                     <p className="text-muted-foreground">
-                        Experience working on individual projects, as well as collaborations and freelance sites/applications 
-                        built for numerous clients.
+                    Experienced in building both solo projects and collaborative applications, including freelance work for multiple clients.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
