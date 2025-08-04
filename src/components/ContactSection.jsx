@@ -5,6 +5,26 @@ import emailjs from "@emailjs/browser";
 
 
 export const ContactSection = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+      .sendForm("service_jwqz8d7", "template_yh3i14a", form.current, "ZWNUTZBCywEwpHXTq")
+      .then(
+        (result) => {
+          console.log("SUCCESS!", result.text);
+          alert("Message sent!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Something went wrong. Try again!");
+        }
+      );
+
+    e.target.reset(); 
+  };
 
     return (
     <section 
