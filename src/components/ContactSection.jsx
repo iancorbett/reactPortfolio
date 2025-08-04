@@ -25,7 +25,7 @@ export const ContactSection = () => {
         emailjs.send(
             serviceID,
             templateID,
-            form.current,
+            formData,
             publicKey
           )
           
