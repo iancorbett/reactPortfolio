@@ -14,7 +14,7 @@ const projects = [
     {
         
         title: "Social Networking App",
-        description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development.",
+        description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
         image: "Project1.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
@@ -23,7 +23,7 @@ const projects = [
     {
         
         title: "E-Commerce Site",
-        description: "hey",
+        description: "This e-commerce backend app was built using Node.js, Express, Sequelize, and PostgreSQL. I set up models, associations, and API routes to perform full CRUD operations, and the app can be tested locally with Insomnia after seeding the database. Walkthrough is also linked on GitHub ReadMe.",
         image: "Project2.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
