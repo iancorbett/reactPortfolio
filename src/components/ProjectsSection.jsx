@@ -13,8 +13,8 @@ const featuredProject = {
 const projects = [
     {
         
-        title: "project 1",
-        description: "hey",
+        title: "Social Networking App",
+        description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development.",
         // image: tbd,
         tags: ["React", "tailwind"],
         demoUrl: "#",
