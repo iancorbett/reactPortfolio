@@ -22,7 +22,7 @@ export const ContactSection = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(
+        emailjs.send(
             serviceID,
             templateID,
             form.current,
