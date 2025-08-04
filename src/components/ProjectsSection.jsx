@@ -18,7 +18,7 @@ const projects = [
         image: "Project1.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/iancorbett/Social_Network_App",
     },
     {
         
@@ -27,7 +27,7 @@ const projects = [
         image: "Project2.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/iancorbett/e-commerce_site",
     },
     {
         
@@ -36,7 +36,7 @@ const projects = [
         image: "Project3.png",
         tags: ["React", "tailwind"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/iancorbett/solid-broccoli",
     },
 ];
 
@@ -127,11 +127,11 @@ export const ProjectsSection = () => {
                         <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
-                                <a href={project.demoUrl} 
+                                {/* <a href={project.demoUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                     <ExternalLink size={20}/>
-                                </a>
+                                </a> */}
                                 <a href={project.githubUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
