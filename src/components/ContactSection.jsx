@@ -33,6 +33,7 @@ export const ContactSection = () => {
         (result) => {
           console.log("SUCCESS!", result.text);
           alert("Message sent!");
+          setFormData({ name: "", email: "", message: "" });
         },
         (error) => {
           console.log("FAILED...", error.text);
