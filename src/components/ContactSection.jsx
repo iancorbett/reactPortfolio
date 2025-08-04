@@ -174,6 +174,7 @@ export const ContactSection = () => {
                             Send Message
                         <Send size={16}/>
                     </button>
+                    {status && <p className="text-green-600 text-center mt-4">{status}</p>}
                 </form>
             </div>
         </div>
