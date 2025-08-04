@@ -10,7 +10,7 @@ const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export const ContactSection = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-    
+    const [status, setStatus] = useState("");
 
     const handleChange = (e) => {
         setFormData((prev) => ({
@@ -29,20 +29,15 @@ export const ContactSection = () => {
             publicKey
           )
           
-      .then(
-        (result) => {
-          console.log("SUCCESS!", result.text);
-          alert("Message sent!");
+      .then(() => {
+          setStatus("Message sent successfully!");
           setFormData({ name: "", email: "", message: "" });
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-          alert("Something went wrong. Try again!");
-        }
-      );
-
-    e.target.reset(); 
-  };
+        })
+        .catch((err) => {
+            console.error("EmailJS Error:", err);
+            setStatus("Failed to send message. Please try again.");
+        });
+      };
 
     return (
     <section 
