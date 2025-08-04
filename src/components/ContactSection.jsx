@@ -1,6 +1,6 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -10,7 +10,7 @@ const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export const ContactSection = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-    const form = useRef();
+    
 
     const handleChange = (e) => {
         setFormData((prev) => ({
