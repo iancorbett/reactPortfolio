@@ -2,7 +2,7 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const featuredProject = {
     title: "Edify",
-    description: "An AI-powered education platform for tracking student growth and behavior.",
+    description: "Edify is a modern, AI-powered education platform designed to empower teachers and administrators with real-time insights into student growth. By combining academic, social-emotional, and behavioral data, Edify delivers intelligent summaries, visual dashboards, and streamlined observations — all in one place. With a focus on clarity, simplicity, and impact, Edify helps educators make faster, smarter decisions that truly support every student.",
     image: "FeaturedProject.png",
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
     demoUrl: "#",
