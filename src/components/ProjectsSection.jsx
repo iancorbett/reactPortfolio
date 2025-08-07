@@ -4,9 +4,9 @@ const featuredProject = {
     title: "Edify",
     description: "An AI-powered education platform for tracking student growth and behavior.",
     image: "FeaturedProject.png",
-    tags: ["React", "Express", "PostgreSQL", "JWT", "OpenAI"],
+    tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/iancorbett/Edify",
   };
 
 
