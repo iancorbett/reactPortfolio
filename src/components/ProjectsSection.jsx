@@ -3,7 +3,7 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const featuredProject = {
     title: "Edify",
     description: "An AI-powered education platform for tracking student growth and behavior.",
-    image: "/images/edify.png",
+    image: "FeaturedProject.png",
     tags: ["React", "Express", "PostgreSQL", "JWT", "OpenAI"],
     demoUrl: "#",
     githubUrl: "#",
