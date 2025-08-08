@@ -1,9 +1,14 @@
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import FeaturedProjectImage from "@/assets/FeaturedProject.png";
+import Project1 from "@/assets/Project1.png";
+import Project2 from "@/assets/Project2.png";
+import Project3 from "@/assets/Project3.png";
+
 
 const featuredProject = {
     title: "Edify",
     description: "Edify is a modern, AI-powered education platform designed to empower teachers and administrators with real-time insights into student growth. By combining academic, social-emotional, and behavioral data, Edify delivers intelligent summaries, visual dashboards, and streamlined observations — all in one place. With a focus on clarity, simplicity, and impact, Edify helps educators make faster, smarter decisions that truly support every student.",
-    image: "FeaturedProject.png",
+    image: FeaturedProjectImage,
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
     demoUrl: "#",
     githubUrl: "https://github.com/iancorbett/Edify",
@@ -15,7 +20,7 @@ const projects = [
         
         title: "Social Networking App",
         description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
-        image: "Project1.png",
+        image: Project1,
         tags: ["Node.js", "MongoDB", "Express"],
         demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/Social_Network_App",
@@ -24,7 +29,7 @@ const projects = [
         
         title: "E-Commerce Site",
         description: "This e-commerce backend app was built using Node.js, Express, Sequelize, and PostgreSQL. I set up models, associations, and API routes to perform full CRUD operations, and the app can be tested locally with Insomnia after seeding the database. Walkthrough is also linked on GitHub ReadMe.",
-        image: "Project2.png",
+        image: Project2,
         tags: ["Node.js", "Express", "PostgreSQL"],
         demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/e-commerce_site",
@@ -33,7 +38,7 @@ const projects = [
         
         title: "Book Search Engine",
         description: "In this project, I built a book search engine where users can sign up, log in, and search for books by title. Using a provided starter codebase, I enhanced the functionality to integrate with an external book API, allowing users to view search results and save their favorite books to a personalized list they can access anytime.",
-        image: "Project3.png",
+        image: Project3,
         tags: ["React", "Graphql", "Express"],
         demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/solid-broccoli",
