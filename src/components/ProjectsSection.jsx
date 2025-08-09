@@ -86,14 +86,14 @@ export const ProjectsSection = () => {
                   target="_blank"
                   className="text-foreground/80 hover:text-primary transition-colors"
                 >
-                  <ExternalLink size={20} />
+                  <ExternalLink size={20} />Watch Update
                 </a>
                 <a
                   href={featuredProject.githubUrl}
                   target="_blank"
                   className="text-foreground/80 hover:text-primary transition-colors"
                 >
-                  <Github size={20} />
+                  <Github size={20} /> Visit Repo
                 </a>
               </div>
             </div>
