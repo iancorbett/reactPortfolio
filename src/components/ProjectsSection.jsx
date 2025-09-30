@@ -39,7 +39,7 @@ const projects = [
     },
     {
             
-        title: "Social Networking App",
+        title: "Job Hunt Tracker",
         description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
         image: Project1,
         tags: ["Node.js", "MongoDB", "Express"],
