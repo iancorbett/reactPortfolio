@@ -3,6 +3,8 @@ import FeaturedProjectImage from "@/assets/FeaturedProject.png";
 import Project1 from "@/assets/Project1.png";
 import Project2 from "@/assets/Project2.png";
 import Project3 from "@/assets/Project3.png";
+import ProjectIsing from "@/assets/ProjectIsing.png";
+
 
 
 const featuredProject = {
@@ -19,12 +21,12 @@ const featuredProject = {
 const projects = [
       {
             
-        title: "Social Networking App",
-        description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
-        image: Project1,
-        tags: ["Node.js", "MongoDB", "Express"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/iancorbett/Social_Network_App",
+        title: "Ising Model Simulation",
+        description: "Ising Model Simulation — Collaborative project with my brother using Rust + JavaScript + Canvas to simulate 2D lattice magnetism, visualizing spin behavior and phase transitions in real time.",
+        image: ProjectIsing,
+        tags: ["Rust", "JavaScript", "WebAssebly"],
+        demoUrl: "https://ising-rust.onrender.com/",
+        githubUrl: "https://github.com/iancorbett/Ising_Rust",
     },
     {
             
@@ -167,11 +169,11 @@ export const ProjectsSection = () => {
                         <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
-                                {/* <a href={project.demoUrl} 
+                                { <a href={project.demoUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                    <ExternalLink size={20}/>
-                                </a> */}
+                                    <ExternalLink size={20}/> Visit Deployed Project
+                                </a> }
                                 <a href={project.githubUrl} 
                                 target="_blank"
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
