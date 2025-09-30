@@ -12,6 +12,7 @@ const featuredProject = {
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
     demoUrl: "https://www.loom.com/share/5b28b97103e44b05b7c4a8a581f26665",
     githubUrl: "https://github.com/iancorbett/Edify",
+    deployedUrl: "https://edify-web-1.onrender.com/",
   };
 
 
@@ -94,6 +95,13 @@ export const ProjectsSection = () => {
                   className="text-foreground/80 hover:text-primary transition-colors"
                 >
                   <Github size={20} /> Visit Repo
+                </a>
+                <a
+                  href={featuredProject.deployedUrl}
+                  target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors"
+                >
+                  <ExternalLink size={20} /> Visit Deployed Site
                 </a>
               </div>
             </div>
