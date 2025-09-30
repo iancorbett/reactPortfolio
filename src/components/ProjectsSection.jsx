@@ -7,7 +7,7 @@ import Project3 from "@/assets/Project3.png";
 
 const featuredProject = {
     title: "Edify",
-    description: "Edify is a modern, AI-powered education platform designed to empower teachers and administrators with real-time insights into student growth. By combining academic, social-emotional, and behavioral data, Edify delivers intelligent summaries, visual dashboards, and streamlined observations — all in one place. With a focus on clarity, simplicity, and impact, Edify helps educators make faster, smarter decisions that truly support every student.",
+    description: "Edify is a modern, AI-powered education platform designed to empower teachers and administrators with real-time insights into student growth. By combining academic, social-emotional, and behavioral data, Edify delivers intelligent summaries, visual dashboards, and streamlined observations — all in one place. With a focus on clarity, simplicity, and impact, Edify helps educators make faster, smarter decisions that truly support every student. I recently completed an ai chatbot designed to handle instructions and troubleshooting on the app.",
     image: FeaturedProjectImage,
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
     demoUrl: "https://www.loom.com/share/5b28b97103e44b05b7c4a8a581f26665",
