@@ -30,8 +30,8 @@ const projects = [
     },
     {
             
-      title: "Social Networking App",
-      description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
+      title: "Edify Assistant",
+      description: "A hybrid chatbot embedded in Edify. It answers most “how do I…?” questions via semantic search over the help docs (TensorFlow.js), and only falls back to GPT-4o-mini when the match against the knowledge base is low-confidence.",
       image: Project1,
       tags: ["Node.js", "MongoDB", "Express"],
       demoUrl: "#",
