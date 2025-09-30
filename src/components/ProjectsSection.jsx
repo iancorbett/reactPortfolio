@@ -87,7 +87,7 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="mb-16">
-          <div className="group bg-card flex flex-col md:flex-row overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
+          <div className="group bg-card flex flex-col md:flex-row overflow-hidden border-1 border-amber-50 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
             <img
               src={featuredProject.image}
               alt={featuredProject.title}
@@ -145,7 +145,7 @@ export const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, key) => (
                 <div key={key} 
-                className="group bg-card  overflow-hidden rounded-lg shadow-xs card-hover"
+                className="group bg-card  overflow-hidden rounded-lg shadow-xs card-hover border-1 border-amber-50"
                 >
                     <div>
                         <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"/>
