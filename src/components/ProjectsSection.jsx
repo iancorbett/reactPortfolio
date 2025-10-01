@@ -42,9 +42,9 @@ const projects = [
     {
             
         title: "Chess Engine",
-        description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
+        description: "Chess Engine — Lightweight engine with legal move generation, check/mate detection, and a depth-limited search (minimax + alpha-beta). Comes with a simple browser UI so you can play against it.",
         image: ChessEngine,
-        tags: ["Node.js", "MongoDB", "Express"],
+        tags: ["JavaScript", "Chess.js", "Game AI"],
         demoUrl: "https://iancorbett.github.io/chessEngine/",
         githubUrl: "https://github.com/iancorbett/chessEngine",
     },
