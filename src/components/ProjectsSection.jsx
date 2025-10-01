@@ -24,7 +24,7 @@ const projects = [
       {
             
         title: "Ising Model Simulation",
-        description: "Ising Model Simulation — Collaborative project with my brother using Rust + JavaScript + Canvas to simulate 2D lattice magnetism, visualizing spin behavior and phase transitions in real time.",
+        description: "Collaborative project with my brother using Rust + JavaScript + Canvas to simulate 2D lattice magnetism, visualizing spin behavior and phase transitions in real time.",
         image: ProjectIsing,
         tags: ["Rust", "JavaScript", "WebAssembly"],
         demoUrl: "https://ising-rust.onrender.com/",
@@ -42,7 +42,7 @@ const projects = [
     {
             
         title: "Chess Engine",
-        description: "Chess Engine — Lightweight engine with legal move generation, check/mate detection, and a depth-limited search (minimax + alpha-beta). Comes with a simple browser UI so you can play against it.",
+        description: "Lightweight engine with legal move generation, check/mate detection, and a depth-limited search (minimax + alpha-beta). Comes with a simple browser UI so you can play against it.",
         image: ChessEngine,
         tags: ["JavaScript", "Chess.js", "Game AI"],
         demoUrl: "https://iancorbett.github.io/chessEngine/",
@@ -54,7 +54,7 @@ const projects = [
         description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
         image: Project1,
         tags: ["Node.js", "MongoDB", "Express"],
-        demoUrl: "#",
+        // demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/Social_Network_App",
     },
     {
@@ -63,7 +63,7 @@ const projects = [
         description: "This e-commerce backend app was built using Node.js, Express, Sequelize, and PostgreSQL. I set up models, associations, and API routes to perform full CRUD operations, and the app can be tested locally with Insomnia after seeding the database. Walkthrough is also linked on GitHub ReadMe.",
         image: Project2,
         tags: ["Node.js", "Express", "PostgreSQL"],
-        demoUrl: "#",
+        // demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/e-commerce_site",
     },
     {
@@ -72,7 +72,7 @@ const projects = [
         description: "In this project, I built a book search engine where users can sign up, log in, and search for books by title. Using a provided starter codebase, I enhanced the functionality to integrate with an external book API, allowing users to view search results and save their favorite books to a personalized list they can access anytime.",
         image: Project3,
         tags: ["React", "GraphQL", "Express"],
-        demoUrl: "#",
+        // demoUrl: "#",
         githubUrl: "https://github.com/iancorbett/solid-broccoli",
     },
 ];
