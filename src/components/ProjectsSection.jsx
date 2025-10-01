@@ -5,6 +5,7 @@ import Project2 from "@/assets/Project2.png";
 import Project3 from "@/assets/Project3.png";
 import ProjectIsing from "@/assets/ProjectIsing.png";
 import EdifyAssistant from "@/assets/EdifyAssistant.png";
+import ChessEngine from "@/assets/ChessEngine.png";
 
 
 
@@ -40,12 +41,12 @@ const projects = [
     },
     {
             
-        title: "Job Hunt Tracker",
+        title: "Chess Engine",
         description: "A social networking app that runs in terminal and can be used with Insomnia and MongoDB. Front end will be built in future development. Walkthrough is also linked on the Github ReadME",
-        image: Project1,
+        image: ChessEngine,
         tags: ["Node.js", "MongoDB", "Express"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/iancorbett/Social_Network_App",
+        demoUrl: "https://iancorbett.github.io/chessEngine/",
+        githubUrl: "https://github.com/iancorbett/chessEngine",
     },
     {
         
@@ -148,7 +149,7 @@ export const ProjectsSection = () => {
                 <div key={key} 
                 className="group bg-card  overflow-hidden rounded-lg shadow-xs card-hover border-1 border-amber-50"
                 >
-                    <div>
+                    <div className="h-48 md:h-56 w-full overflow-hidden">
                         <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                     </div>
 
