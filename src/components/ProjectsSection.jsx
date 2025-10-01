@@ -4,6 +4,7 @@ import Project1 from "@/assets/Project1.png";
 import Project2 from "@/assets/Project2.png";
 import Project3 from "@/assets/Project3.png";
 import ProjectIsing from "@/assets/ProjectIsing.png";
+import EdifyAssistant from "@/assets/EdifyAssistant.png";
 
 
 
@@ -32,10 +33,10 @@ const projects = [
             
       title: "Edify Assistant",
       description: "A hybrid chatbot embedded in Edify. It answers most “how do I…?” questions via semantic search over the help docs (TensorFlow.js), and only falls back to GPT-4o-mini when the match against the knowledge base is low-confidence.",
-      image: Project1,
-      tags: ["Node.js", "MongoDB", "Express"],
-      demoUrl: "#",
-      githubUrl: "https://github.com/iancorbett/Social_Network_App",
+      image: EdifyAssistant,
+      tags: ["Hybrid Chatbot", "OpenAI", "Express"],
+      demoUrl: "https://iancorbett.github.io/edifyAssistant/",
+      githubUrl: "https://github.com/iancorbett/edifyAssistant",
     },
     {
             
