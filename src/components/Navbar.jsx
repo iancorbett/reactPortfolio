@@ -15,19 +15,33 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 10); // <-- fix
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
     handleScroll();
+
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const handleNavClick = (e, hash) => {
     e.preventDefault();
-    const el = document.querySelector(hash);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      history.replaceState(null, "", hash); // keep URL hash without reload
+
+    const section = document.querySelector(hash);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+
+      window.history.replaceState(null, "", hash);
     }
+
     setIsMenuOpen(false);
   };
 
@@ -35,22 +49,26 @@ export const Navbar = () => {
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
+        isScrolled
+          ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
+          : "py-5"
       )}
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
           href="#hero"
           onClick={(e) => handleNavClick(e, "#hero")}
+          className="text-xl font-bold text-primary flex items-center"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Ian Corbett's</span>{" "}
+            <span className="text-glow text-foreground">
+              Ian Corbett&apos;s
+            </span>{" "}
             Portfolio
           </span>
         </a>
 
-        {/* desktop nav */}
+        {/* Desktop navigation */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item) => (
             <a
@@ -64,24 +82,31 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* mobile toggle */}
+        {/* Mobile menu toggle */}
         <button
+          type="button"
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50"
-          aria-label={isMenuOpen ? "Close  Menu" : "Open Menu"}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-navigation"
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        {/* mobile menu */}
+        {/* Mobile navigation */}
         <div
+          id="mobile-navigation"
           className={cn(
-            "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed inset-0 bg-background/95 backdrop-blur-md z-40",
+            "flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
-            isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+            isMenuOpen
+              ? "opacity-100 pointer-events-auto"
+              : "opacity-0 pointer-events-none"
           )}
         >
-          <div className="flex flex-col space-y-8 text-xl">
+          <div className="flex flex-col items-center space-y-8 text-xl">
             {navItems.map((item) => (
               <a
                 key={item.href}
