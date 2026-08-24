@@ -20,16 +20,13 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-xl md:text-2xl font-semibold opacity-0 animate-fade-in-delay-3">
-            Front-end focused full-stack developer building polished,
+            Full-stack developer building polished,
             responsive web experiences.
           </p>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-delay-3">
-            I design and develop production-ready websites and applications,
-            combining strong front-end development, thoughtful UI/UX, and
-            practical full-stack engineering. My work spans custom client
-            projects, interactive web applications, and products built from
-            concept through deployment.
+            I design and develop production-ready websites and applications, combining thoughtful UI/UX with practical full-stack engineering.
+             My work spans interactive web applications, client projects, and products built from concept through deployment.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
