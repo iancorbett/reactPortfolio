@@ -10,7 +10,7 @@ import ChessEngine from "@/assets/ChessEngine.png";
 
 
 const featuredProject = {
-    title: "CreatorLab",
+    title: "CreatorLab Pulse",
     description: "A production creator analytics and content platform built to help Threads creators understand performance, generate tailored ideas, and improve their content strategy.",
     image: NewFeaturedProjectImage,
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
