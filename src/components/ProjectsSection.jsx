@@ -1,5 +1,5 @@
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
-import FeaturedProjectImage from "@/assets/FeaturedProject.png";
+import NewFeaturedProjectImage from "@/assets/NewFeaturedProject.png";
 import Project1 from "@/assets/Project1.png";
 import Project2 from "@/assets/Project2.png";
 import Project3 from "@/assets/Project3.png";
@@ -10,13 +10,13 @@ import ChessEngine from "@/assets/ChessEngine.png";
 
 
 const featuredProject = {
-    title: "Edify",
-    description: "Edify is a modern, AI-powered education platform designed to empower teachers and administrators with real-time insights into student growth. By combining academic, social-emotional, and behavioral data, Edify delivers intelligent summaries, visual dashboards, and streamlined observations — all in one place. With a focus on clarity, simplicity, and impact, Edify helps educators make faster, smarter decisions that truly support every student. I recently completed an ai chatbot designed to handle instructions and troubleshooting on the app.",
-    image: FeaturedProjectImage,
+    title: "CreatorLab",
+    description: "A production creator analytics and content platform built to help Threads creators understand performance, generate tailored ideas, and improve their content strategy.",
+    image: NewFeaturedProjectImage,
     tags: ["React", "Express", "PostgreSQL", "Node.js", "OpenAI"],
-    demoUrl: "https://www.loom.com/share/5b28b97103e44b05b7c4a8a581f26665",
-    githubUrl: "https://github.com/iancorbett/Edify",
-    deployedUrl: "https://edify-web-1.onrender.com/",
+    // demoUrl: "https://www.loom.com/share/5b28b97103e44b05b7c4a8a581f26665",
+    // githubUrl: "https://github.com/iancorbett/Edify",
+    deployedUrl: "https://www.creatorlabpulse.com/",
   };
 
 
