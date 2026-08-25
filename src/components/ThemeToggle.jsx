@@ -1,23 +1,24 @@
 import { Moon, Sun } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+
+const THEME_KEY = "portfolio-theme";
 
 export const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
+  useLayoutEffect(() => {
+    const storedTheme = localStorage.getItem(THEME_KEY);
 
-    // Dark mode is the default unless the user explicitly chose light mode
+    // Default to dark unless the user has explicitly chosen light
     const shouldUseDarkMode = storedTheme !== "light";
 
+    document.documentElement.classList.toggle("dark", shouldUseDarkMode);
     setIsDarkMode(shouldUseDarkMode);
 
-    if (shouldUseDarkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
+    // Save the default so future loads stay consistent
+    if (!storedTheme) {
+      localStorage.setItem(THEME_KEY, "dark");
     }
   }, []);
 
@@ -25,14 +26,12 @@ export const ThemeToggle = () => {
     const newDarkMode = !isDarkMode;
 
     setIsDarkMode(newDarkMode);
+    document.documentElement.classList.toggle("dark", newDarkMode);
 
-    if (newDarkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
+    localStorage.setItem(
+      THEME_KEY,
+      newDarkMode ? "dark" : "light"
+    );
   };
 
   return (
