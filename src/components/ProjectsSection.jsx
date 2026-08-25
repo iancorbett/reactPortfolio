@@ -89,11 +89,22 @@ export const ProjectsSection = () => {
           <div className="group bg-card overflow-hidden rounded-2xl border border-border shadow-md transition-all duration-300 hover:shadow-xl">
             <div className="grid grid-cols-1 lg:grid-cols-[1.35fr_1fr]">
               {/* Screenshot */}
-              <div className="bg-black/20 flex items-center justify-center p-3 overflow-hidden">
+              <div className="relative bg-black/20 overflow-hidden min-h-[380px] lg:min-h-[430px]">
                 <img
                   src={featuredProject.image}
                   alt={`${featuredProject.title} preview`}
-                  className="w-full h-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.02]"
+                  className="
+                    absolute
+                    inset-0
+                    w-full
+                    h-full
+                    object-cover
+                    object-left
+                    scale-[1.15]
+                    transition-transform
+                    duration-500
+                    group-hover:scale-[1.18]
+                  "
                 />
               </div>
 
