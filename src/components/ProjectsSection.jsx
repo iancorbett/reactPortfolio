@@ -113,7 +113,7 @@ export const ProjectsSection = () => {
                 </p>
               </div>
               <div className="flex space-x-4">
-                <a
+                {/* <a
                   href={featuredProject.demoUrl}
                   target="_blank"
                   className="text-foreground/80 hover:text-primary transition-colors"
@@ -126,7 +126,7 @@ export const ProjectsSection = () => {
                   className="text-foreground/80 hover:text-primary transition-colors"
                 >
                   <Github size={20} /> Visit Repo
-                </a>
+                </a> */}
                 <a
                   href={featuredProject.deployedUrl}
                   target="_blank"
